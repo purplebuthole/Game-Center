@@ -5,7 +5,7 @@ install pnpm:
 ```bash
 $ curl -fsSL https://get.pnpm.io/install.sh | sh -
 ```
-or install bun and follow the <p style="color:yellow;">bun install</p> command and the bun run dev command:
+or install bun and follow the bun install command and the bun run dev command:
 ```bash
 $ curl -fsSL https://bun.sh/install | bash
 ```
