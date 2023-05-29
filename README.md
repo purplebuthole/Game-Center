@@ -1,3 +1,9 @@
+## Deploy
+
+```bash
+$ git clone https://github.com/purplebuthole/Game-Center <br/> cd Game-Center <br/> pnpm i <br/> pnpm run dev
+```
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
