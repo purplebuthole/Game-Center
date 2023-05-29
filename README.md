@@ -11,7 +11,7 @@ Debian nodejs sometimes does not work or You can run <p style="background-color:
 ```bash
 $ git clone https://github.com/purplebuthole/Game-Center 
 $ cd Game-Center
-$ pnpm i # or npm i or yarn install
+$ pnpm i # or npm i or yarn install or bun install
 $ pnpm run dev # or bun run dev
 ```
 
