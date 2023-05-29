@@ -1,3 +1,20 @@
+## Requirement
+install pnpm:
+```bash
+$ curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+install nodejs:
+https://nodejs.org/en/download/package-manager#debian-and-ubuntu-based-linux-distributions<br/>
+Debian nodejs sometimes does not work or You can run <p style="background-color:blue;">sudo apt-get install nodejs</p> it might work.
+## Deploy
+
+```bash
+$ git clone https://github.com/purplebuthole/Game-Center 
+$ cd Game-Center
+$ pnpm i # or npm i or yarn install
+$ pnpm run dev # or bun run dev
+```
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
@@ -29,6 +46,3 @@ It correctly bundles Solid in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
