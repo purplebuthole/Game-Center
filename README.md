@@ -1,4 +1,4 @@
-<img src="./src/img.png" alt="img" />
+<img src="./img/img.png" alt="img" />
 ## Requirement
 install pnpm:
 ```bash
