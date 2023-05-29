@@ -1,3 +1,9 @@
+## Requirement
+Install pnpm
+```bash
+$ curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+
 ## Deploy
 
 ```bash
