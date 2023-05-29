@@ -7,7 +7,13 @@ const Menu: Component = () => {
       <div class={styles.row}>
         <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
           <figure class="px-10 pt-10">
-            <img src="src/ico/motherload.jpeg" alt="Shoes" class="rounded-xl" />
+            <img
+              src="src/ico/motherload.jpeg"
+              width="300px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Motherload</h2>
@@ -29,7 +35,13 @@ const Menu: Component = () => {
         </div>
         <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
           <figure class="px-10 pt-10">
-            <img src="src/ico/learntofly2.jpg" alt="Shoes" class="rounded-xl" />
+            <img
+              src="src/ico/learntofly2.jpg"
+              width="300px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Learn How to Fly 2</h2>
@@ -51,7 +63,13 @@ const Menu: Component = () => {
         </div>
         <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
           <figure class="px-10 pt-10">
-            <img src="src/ico/learn.png" alt="Shoes" class="rounded-xl" />
+            <img
+              src="src/ico/learn.png"
+              width="300px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Learn how to fly</h2>
@@ -73,7 +91,13 @@ const Menu: Component = () => {
         </div>
         <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
           <figure class="px-10 pt-10">
-            <img src="src/ico/1v1.jpeg" alt="Shoes" class="rounded-xl" />
+            <img
+              src="src/ico/1v1.jpeg"
+              width="300px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
           </figure>
           <div class="card-body">
             <h2 class="card-title">1v1.lol</h2>
@@ -97,8 +121,8 @@ const Menu: Component = () => {
           <figure class="px-10 pt-10">
             <img
               src="src/ico/fancy.webp"
-              height="35vh"
-              width="90"
+              width="200px"
+              height="180px"
               alt="logo"
               class="rounded-xl"
             />
@@ -124,7 +148,13 @@ const Menu: Component = () => {
         </div>
         <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
           <figure class="px-10 pt-10">
-            <img src="src/ico/gunn.png" alt="logo" class="rounded-xl" />
+            <img
+              src="src/ico/gunn.png"
+              width="300px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Gun Mayhem 2</h2>
