@@ -1,7 +1,10 @@
 ## Deploy
 
 ```bash
-$ git clone https://github.com/purplebuthole/Game-Center <br/> cd Game-Center <br/> pnpm i <br/> pnpm run dev
+$ git clone https://github.com/purplebuthole/Game-Center 
+$ cd Game-Center
+$ pnpm i 
+$ pnpm run dev
 ```
 
 ## Usage
