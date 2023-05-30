@@ -1,7 +1,13 @@
+<img src="./img/img.png" alt="img" />
+
 ## Requirement
 install pnpm:
 ```bash
 $ curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+or install bun and follow the "bun install" command and the "bun run dev" command:
+```bash
+$ curl -fsSL https://bun.sh/install | bash
 ```
 install nodejs:
 https://nodejs.org/en/download/package-manager#debian-and-ubuntu-based-linux-distributions<br/>
