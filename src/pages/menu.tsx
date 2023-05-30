@@ -174,6 +174,64 @@ const Menu: Component = () => {
             </div>
           </div>
         </div>
+        <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
+          <figure class="px-10 pt-10">
+            <img
+              src="src/ico/quiz.webp"
+              width="237px"
+              height="180px"
+              alt="logo"
+              class="rounded-xl"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Impossible Quiz</h2>
+            <p>
+              A game were you try to answers the question right before the you
+              died, you only have three lives everytime you answers it wrong you
+              lose a life
+            </p>
+            <div class="card-actions justify-end">
+              <a href="/Quiz">
+                <button
+                  id="wait"
+                  class="btn btn-primary hover:btn-success duration-300 ease-in-out"
+                >
+                  Play Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card w-96 bg-base-300 shadow-xl hover:scale-105 transition duration-200 ease-in-out">
+          <figure class="px-10 pt-10">
+            <img
+              src="src/ico/quiz.png"
+              width="400px"
+              height="280px"
+              alt="logo"
+              class="rounded-xl"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Impossible Quiz 2</h2>
+            <p>
+              A game were you try to answers the question right before the you
+              died, you only have three lives everytime you answers it wrong you
+              lose a life
+            </p>
+            <div class="card-actions justify-end">
+              <a href="/Quiz2">
+                <button
+                  id="wait"
+                  class="btn btn-primary hover:btn-success duration-300 ease-in-out"
+                >
+                  Play Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

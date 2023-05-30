@@ -14,6 +14,8 @@ const App: Component = () => {
       <Route path="/learn2" component={Game} />
       <Route path="/fancy" component={Game} />
       <Route path="/Mayhem" component={Game} />
+      <Route path="/Quiz" component={Game} />
+      <Route path="/Quiz2" component={Game} />
     </Routes>
   );
 };

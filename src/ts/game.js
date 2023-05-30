@@ -49,4 +49,24 @@ if (url == "/Mayhem") {
     player.load("./src/swf/Gunm.swf");
   });
 }
+if (url == "/Quiz") {
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", (event) => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    const container = document.getElementById("container");
+    container.appendChild(player);
+    player.load("./src/swf/quiz.swf");
+  });
+}
+if (url == "/Quiz2") {
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("load", (event) => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    const container = document.getElementById("container");
+    container.appendChild(player);
+    player.load("./src/swf/quiz2.swf");
+  });
+}
 console.log(url);
